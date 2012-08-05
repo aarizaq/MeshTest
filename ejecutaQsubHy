@@ -1,0 +1,120 @@
+#!/bin/bash
+
+qsub -v PATH -cwd ./run -c MeshS1S_1 -u Cmdenv -f omnetpp10.ini
+qsub -v PATH -cwd ./run -c MeshS1S_2 -u Cmdenv -f omnetpp10.ini
+qsub -v PATH -cwd ./run -c MeshS1S_3 -u Cmdenv -f omnetpp10.ini
+qsub -v PATH -cwd ./run -c MeshS1S_4 -u Cmdenv -f omnetpp10.ini
+qsub -v PATH -cwd ./run -c MeshS1S_5 -u Cmdenv -f omnetpp10.ini
+
+
+
+qsub -v PATH -cwd ./run -c MeshS2S_1 -u Cmdenv -f omnetpp10.ini
+qsub -v PATH -cwd ./run -c MeshS2S_2 -u Cmdenv -f omnetpp10.ini
+qsub -v PATH -cwd ./run -c MeshS2S_3 -u Cmdenv -f omnetpp10.ini
+qsub -v PATH -cwd ./run -c MeshS2S_4 -u Cmdenv -f omnetpp10.ini
+qsub -v PATH -cwd ./run -c MeshS2S_5 -u Cmdenv -f omnetpp10.ini
+
+qsub -v PATH -cwd ./run -c MeshS4S_1 -u Cmdenv -f omnetpp10.ini
+qsub -v PATH -cwd ./run -c MeshS4S_2 -u Cmdenv -f omnetpp10.ini
+qsub -v PATH -cwd ./run -c MeshS4S_3 -u Cmdenv -f omnetpp10.ini
+qsub -v PATH -cwd ./run -c MeshS4S_4 -u Cmdenv -f omnetpp10.ini
+qsub -v PATH -cwd ./run -c MeshS4S_5 -u Cmdenv -f omnetpp10.ini
+
+qsub -v PATH -cwd ./run -c MeshS7S_1 -u Cmdenv -f omnetpp10.ini
+qsub -v PATH -cwd ./run -c MeshS7S_2 -u Cmdenv -f omnetpp10.ini
+qsub -v PATH -cwd ./run -c MeshS7S_3 -u Cmdenv -f omnetpp10.ini
+qsub -v PATH -cwd ./run -c MeshS7S_4 -u Cmdenv -f omnetpp10.ini
+qsub -v PATH -cwd ./run -c MeshS7S_5 -u Cmdenv -f omnetpp10.ini
+
+qsub -v PATH -cwd ./run -c MeshS9S_1 -u Cmdenv -f omnetpp10.ini
+qsub -v PATH -cwd ./run -c MeshS9S_2 -u Cmdenv -f omnetpp10.ini
+qsub -v PATH -cwd ./run -c MeshS9S_3 -u Cmdenv -f omnetpp10.ini
+qsub -v PATH -cwd ./run -c MeshS9S_4 -u Cmdenv -f omnetpp10.ini
+qsub -v PATH -cwd ./run -c MeshS9S_5 -u Cmdenv -f omnetpp10.ini
+
+qsub -v PATH -cwd ./run -c MeshS10S_1 -u Cmdenv -f omnetpp10.ini
+qsub -v PATH -cwd ./run -c MeshS10S_2 -u Cmdenv -f omnetpp10.ini
+qsub -v PATH -cwd ./run -c MeshS10S_3 -u Cmdenv -f omnetpp10.ini
+qsub -v PATH -cwd ./run -c MeshS10S_4 -u Cmdenv -f omnetpp10.ini
+qsub -v PATH -cwd ./run -c MeshS10S_5 -u Cmdenv -f omnetpp10.ini
+
+
+
+qsub -v PATH -cwd ./run -c MeshS1S_1 -u Cmdenv -f omnetpp11.ini
+qsub -v PATH -cwd ./run -c MeshS1S_2 -u Cmdenv -f omnetpp11.ini
+qsub -v PATH -cwd ./run -c MeshS1S_3 -u Cmdenv -f omnetpp11.ini
+qsub -v PATH -cwd ./run -c MeshS1S_4 -u Cmdenv -f omnetpp11.ini
+qsub -v PATH -cwd ./run -c MeshS1S_5 -u Cmdenv -f omnetpp11.ini
+
+
+
+qsub -v PATH -cwd ./run -c MeshS2S_1 -u Cmdenv -f omnetpp11.ini
+qsub -v PATH -cwd ./run -c MeshS2S_2 -u Cmdenv -f omnetpp11.ini
+qsub -v PATH -cwd ./run -c MeshS2S_3 -u Cmdenv -f omnetpp11.ini
+qsub -v PATH -cwd ./run -c MeshS2S_4 -u Cmdenv -f omnetpp11.ini
+qsub -v PATH -cwd ./run -c MeshS2S_5 -u Cmdenv -f omnetpp11.ini
+
+qsub -v PATH -cwd ./run -c MeshS4S_1 -u Cmdenv -f omnetpp11.ini
+qsub -v PATH -cwd ./run -c MeshS4S_2 -u Cmdenv -f omnetpp11.ini
+qsub -v PATH -cwd ./run -c MeshS4S_3 -u Cmdenv -f omnetpp11.ini
+qsub -v PATH -cwd ./run -c MeshS4S_4 -u Cmdenv -f omnetpp11.ini
+qsub -v PATH -cwd ./run -c MeshS4S_5 -u Cmdenv -f omnetpp11.ini
+
+qsub -v PATH -cwd ./run -c MeshS7S_1 -u Cmdenv -f omnetpp11.ini
+qsub -v PATH -cwd ./run -c MeshS7S_2 -u Cmdenv -f omnetpp11.ini
+qsub -v PATH -cwd ./run -c MeshS7S_3 -u Cmdenv -f omnetpp11.ini
+qsub -v PATH -cwd ./run -c MeshS7S_4 -u Cmdenv -f omnetpp11.ini
+qsub -v PATH -cwd ./run -c MeshS7S_5 -u Cmdenv -f omnetpp11.ini
+
+qsub -v PATH -cwd ./run -c MeshS9S_1 -u Cmdenv -f omnetpp11.ini
+qsub -v PATH -cwd ./run -c MeshS9S_2 -u Cmdenv -f omnetpp11.ini
+qsub -v PATH -cwd ./run -c MeshS9S_3 -u Cmdenv -f omnetpp11.ini
+qsub -v PATH -cwd ./run -c MeshS9S_4 -u Cmdenv -f omnetpp11.ini
+qsub -v PATH -cwd ./run -c MeshS9S_5 -u Cmdenv -f omnetpp11.ini
+
+qsub -v PATH -cwd ./run -c MeshS10S_1 -u Cmdenv -f omnetpp11.ini
+qsub -v PATH -cwd ./run -c MeshS10S_2 -u Cmdenv -f omnetpp11.ini
+qsub -v PATH -cwd ./run -c MeshS10S_3 -u Cmdenv -f omnetpp11.ini
+qsub -v PATH -cwd ./run -c MeshS10S_4 -u Cmdenv -f omnetpp11.ini
+qsub -v PATH -cwd ./run -c MeshS10S_5 -u Cmdenv -f omnetpp11.ini
+
+
+
+qsub -v PATH -cwd ./run -c MeshS1S_1 -u Cmdenv -f omnetpp12.ini
+qsub -v PATH -cwd ./run -c MeshS1S_2 -u Cmdenv -f omnetpp12.ini
+qsub -v PATH -cwd ./run -c MeshS1S_3 -u Cmdenv -f omnetpp12.ini
+qsub -v PATH -cwd ./run -c MeshS1S_4 -u Cmdenv -f omnetpp12.ini
+qsub -v PATH -cwd ./run -c MeshS1S_5 -u Cmdenv -f omnetpp12.ini
+
+
+
+qsub -v PATH -cwd ./run -c MeshS2S_1 -u Cmdenv -f omnetpp12.ini
+qsub -v PATH -cwd ./run -c MeshS2S_2 -u Cmdenv -f omnetpp12.ini
+qsub -v PATH -cwd ./run -c MeshS2S_3 -u Cmdenv -f omnetpp12.ini
+qsub -v PATH -cwd ./run -c MeshS2S_4 -u Cmdenv -f omnetpp12.ini
+qsub -v PATH -cwd ./run -c MeshS2S_5 -u Cmdenv -f omnetpp12.ini
+
+qsub -v PATH -cwd ./run -c MeshS4S_1 -u Cmdenv -f omnetpp12.ini
+qsub -v PATH -cwd ./run -c MeshS4S_2 -u Cmdenv -f omnetpp12.ini
+qsub -v PATH -cwd ./run -c MeshS4S_3 -u Cmdenv -f omnetpp12.ini
+qsub -v PATH -cwd ./run -c MeshS4S_4 -u Cmdenv -f omnetpp12.ini
+qsub -v PATH -cwd ./run -c MeshS4S_5 -u Cmdenv -f omnetpp12.ini
+
+qsub -v PATH -cwd ./run -c MeshS7S_1 -u Cmdenv -f omnetpp12.ini
+qsub -v PATH -cwd ./run -c MeshS7S_2 -u Cmdenv -f omnetpp12.ini
+qsub -v PATH -cwd ./run -c MeshS7S_3 -u Cmdenv -f omnetpp12.ini
+qsub -v PATH -cwd ./run -c MeshS7S_4 -u Cmdenv -f omnetpp12.ini
+qsub -v PATH -cwd ./run -c MeshS7S_5 -u Cmdenv -f omnetpp12.ini
+
+qsub -v PATH -cwd ./run -c MeshS9S_1 -u Cmdenv -f omnetpp12.ini
+qsub -v PATH -cwd ./run -c MeshS9S_2 -u Cmdenv -f omnetpp12.ini
+qsub -v PATH -cwd ./run -c MeshS9S_3 -u Cmdenv -f omnetpp12.ini
+qsub -v PATH -cwd ./run -c MeshS9S_4 -u Cmdenv -f omnetpp12.ini
+qsub -v PATH -cwd ./run -c MeshS9S_5 -u Cmdenv -f omnetpp12.ini
+
+qsub -v PATH -cwd ./run -c MeshS10S_1 -u Cmdenv -f omnetpp12.ini
+qsub -v PATH -cwd ./run -c MeshS10S_2 -u Cmdenv -f omnetpp12.ini
+qsub -v PATH -cwd ./run -c MeshS10S_3 -u Cmdenv -f omnetpp12.ini
+qsub -v PATH -cwd ./run -c MeshS10S_4 -u Cmdenv -f omnetpp12.ini
+qsub -v PATH -cwd ./run -c MeshS10S_5 -u Cmdenv -f omnetpp12.ini
+
